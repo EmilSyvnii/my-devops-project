@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pg-test-configmap
+data:
+  pg_db: postgres
+  pg_admin_mail: test@email.com
